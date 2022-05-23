@@ -8,11 +8,14 @@
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     border: 1px solid black;
+    height: 1000px;
+    max-height: 1000px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .grid-cell {
-    padding: 1em;
-    border: 1px solid black;
+    border: 0.3px solid black;
     text-align: center;
   }
 
