@@ -7,9 +7,9 @@
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
-    border: 1px solid black;
-    height: 1000px;
-    max-height: 1000px;
+    border: 0.3px solid black;
+    height: 900px;
+    max-height: 900px;
     width: 100%;
     max-width: 100%;
 }
