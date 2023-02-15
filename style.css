@@ -3,15 +3,40 @@
     --grid-rows: 1;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  background-color: whitesmoke;
+  min-height:100vh;
+  margin:0;
+  justify-content: space-between;
+}
+
+button{
+  margin-top: 3vh;
+  height: 10vh;
+  width:30vw;
+  font-size: 25px;
+  background-color: lavender;
+  border-radius: 12px;
+  border: 0px;
+}
+
+button:hover{
+  background-color: plum;
+}
 .container{
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     border: 0.3px solid black;
-    height: 900px;
-    max-height: 900px;
-    width: 100%;
-    max-width: 100%;
+    min-width: 75vw;
+    max-height: 75vh;
+    max-width: 75vw;
+    min-height: 75vh;
 }
 
 .grid-cell {
@@ -23,3 +48,18 @@
     background-color: aqua;
     color: black;
   }
+
+footer{
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+  justify-content: flex-end;
+  background-color: lavender;
+  width:100vw;
+  padding-right: 5vw;
+}
+
+img{
+  width: 3vw;
+  height: auto;
+}
